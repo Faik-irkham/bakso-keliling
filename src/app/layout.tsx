@@ -7,7 +7,7 @@ const poppins = Poppins({
   weight: ["400", "600", "700", "800"],
 });
 
-const siteUrl = "https://baksokangasep.com";
+const siteUrl = "https://bakso.faikirkham.my.id";
 
 export const metadata: Metadata = {
   title: {
