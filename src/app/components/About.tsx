@@ -11,14 +11,13 @@ export default function About() {
     >
       <div className="absolute top-0 right-0 h-full w-full md:w-2/3 lg:w-1/2 z-0">
         <Image
-          src="/bakso-hero.png"
+          src="/bakso-bg.png"
           alt="Latar belakang mangkuk bakso"
           fill
           priority
           style={{ objectFit: "cover" }}
           sizes="(max-width: 768px) 100vw, 50vw"
         />
-
         <div className="absolute inset-0 bg-gradient-to-l from-white/50 via-white/60 to-white"></div>
       </div>
 
@@ -46,12 +45,12 @@ export default function About() {
             viewport={{ once: true, amount: 0.4 }}
             transition={{ type: "spring", stiffness: 80, delay: 0.2 }}
           >
-            <div className="backdrop-blur-lg p-8 md:p-10 rounded-2xl shadow-2xl border-2 border-white">
+            <div className=" p-8 md:p-10 rounded-2xl shadow-2xl border-2 border-white">
               <div className="w-16 h-1 bg-orange-500 mb-4 rounded-full"></div>
               <h2 className="text-4xl lg:text-5xl font-extrabold text-gray-900 tracking-tight">
                 Cerita di Balik Gerobak
               </h2>
-              <p className="mt-5 text-lg text-gray-600 leading-relaxed">
+              <p className="mt-5 text-lg text-black leading-relaxed">
                 Berawal dari resep warisan keluarga, Bakso Kang Asep lahir dari
                 kecintaan untuk menyajikan cita rasa otentik. Setiap mangkuk
                 adalah janji kualitas, diracik dari daging sapi pilihan dan
