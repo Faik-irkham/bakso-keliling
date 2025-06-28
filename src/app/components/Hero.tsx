@@ -460,7 +460,7 @@ export default function Hero() {
     <section className="relative h-screen flex items-center justify-center text-center text-white overflow-hidden">
       {/* 1. Mengganti <video> dengan komponen VideoPlayer */}
       <div className="absolute top-0 left-0 w-full h-full z-[-1]">
-        <VideoPlayer options={videoJsOptions} />
+        <VideoPlayer options={videoJsOptions} className="w-full h-full" />
         {/* Lapisan overlay gelap */}
         <div className="absolute inset-0 bg-black/60"></div>
       </div>

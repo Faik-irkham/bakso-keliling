@@ -18,9 +18,14 @@ type VideoJsPlayerOptions = Parameters<typeof videojs>[1];
 interface IVideoPlayerProps {
   options: VideoJsPlayerOptions;
   onReady?: (player: VideoJsPlayer) => void;
+  className?: string;
 }
 
-const VideoPlayer: React.FC<IVideoPlayerProps> = ({ options, onReady }) => {
+const VideoPlayer: React.FC<IVideoPlayerProps> = ({
+  options,
+  onReady,
+  className,
+}) => {
   const videoNode = useRef<HTMLVideoElement>(null);
   const playerRef = useRef<VideoJsPlayer | null>(null);
 
@@ -49,7 +54,7 @@ const VideoPlayer: React.FC<IVideoPlayerProps> = ({ options, onReady }) => {
   }, [options, onReady]);
 
   return (
-    <div data-vjs-player>
+    <div data-vjs-player className={className}>
       <video ref={videoNode} className="video-js vjs-fill"></video>
     </div>
   );
