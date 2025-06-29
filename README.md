@@ -92,4 +92,4 @@ Untuk mengadaptasi template ini untuk usaha Anda sendiri, berikut adalah daftar 
 ---
 
 Dibuat dengan ❤️ untuk kemajuan UMKM.
-_Faik Irkham._
+_Faik Irkham_
