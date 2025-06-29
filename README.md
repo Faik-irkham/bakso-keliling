@@ -10,7 +10,6 @@ Selamat datang di repositori Landing Page Bakso Kang Asep! Ini adalah _template_
 Proyek ini menunjukkan bagaimana teknologi dapat membantu dalam pembuatan website yang fungsional dan estetis untuk UMKM.
 
 ![Tangkapan Layar Website Bakso Kang Asep](https://bakso-keliling.vercel.app/bakso-keliling.vercel.app.png)
-_(Tips: Ganti URL di atas dengan screenshot hasil akhir website Anda)_
 
 ## ✨ Fitur Utama
 
@@ -25,7 +24,7 @@ _(Tips: Ganti URL di atas dengan screenshot hasil akhir website Anda)_
 
 ## 🚀 Teknologi yang Digunakan
 
-- **Framework:** [Next.js](https://nextjs.org/) 14+ (App Router)
+- **Framework:** [Next.js](https://nextjs.org/) 15+ (App Router)
 - **Styling:** [Tailwind CSS](https://tailwindcss.com/)
 - **Animasi:** [Framer Motion](https://www.framer.com/motion/)
 - **Bahasa:** [TypeScript](https://www.typescriptlang.org/)
@@ -39,13 +38,13 @@ Untuk menjalankan proyek ini di komputer lokal Anda, ikuti langkah-langkah berik
 1.  **Clone repositori ini:**
 
     ```bash
-    git clone [https://github.com/nama-anda/nama-repo-ini.git](https://github.com/nama-anda/nama-repo-ini.git)
+    git clone https://github.com/Faik-irkham/bakso-keliling.git
     ```
 
 2.  **Masuk ke direktori proyek:**
 
     ```bash
-    cd nama-repo-ini
+    cd bakso-keliling
     ```
 
 3.  **Install semua dependensi:**
